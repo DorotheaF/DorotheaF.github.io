@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background: #f5ecdb;
+  background: $light-purple;
   
   &,
   .container {
@@ -82,7 +82,7 @@
   z-index: 2;
   position: relative;
   &:before {
-    // background-color: #f5ecdb;
+    // background-color: $light-purple;
     top: 0;
     left: 0;
     content: "";
@@ -228,9 +228,9 @@
 
 .post-entry-1 {
   background: $white;
-  .meta {
+  // .meta {
 
-  }
+  // }
   .post-entry-1-contents {
     padding: 20px;
     h2 {
@@ -392,7 +392,7 @@
 }
 
 .client {
-  background: #f5ecdb;
+  background: $light-purple;
   padding: 30px;
   .name-photo {
     img {
@@ -417,5 +417,5 @@
   }
 }
 .blog-section {
-  background: #f5ecdb;
+  background: $light-purple;
 }
