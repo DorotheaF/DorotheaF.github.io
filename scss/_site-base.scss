@@ -18,6 +18,8 @@ html {
 $graycolors: #f7f7f7, #e9e9e9, #d9d9d9, #c9c9c9, #b8b8b8, #a8a8a8, #939393, #7b7b7b, #636363
 #4d4d4d, #353535;
 
+$light-purple: #e7e4f9;
+
 @for $i from 1 through length($graycolors) {
 	.font-gray-#{$i} {
 		color: nth($graycolors, $i)
@@ -191,13 +193,13 @@ h1, h2, h3, h4, h5,
 
 
 .copyright {
-	background: #f5ecdb;
+	background: $light-purple;
 }
 .footer {
 	padding: 4em 0;
 	// background: lighten($black, 20%);
 	// background: $black;
-	background: #f5ecdb;
+	background: $light-purple;
 	@include media-breakpoint-up(md) {
 		padding: 8em 0;	
 	}
